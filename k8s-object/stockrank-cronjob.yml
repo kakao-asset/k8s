@@ -1,0 +1,21 @@
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: stockrank-cj
+spec:
+  # “At minute 0 past every hour.”
+  # schedule: "CRON_TZ=Asia/Seoul 0 */1 * * *"
+  schedule: "CRON_TZ=Asia/Seoul */5 * * * *"
+  successfulJobsHistoryLimit: 3
+  failedJobsHistoryLimit: 3
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          containers:
+          - name: stockrank-cj
+            image: zxcasd3004/kakaoasset:stockrank
+            envFrom:
+            - configMapRef:
+                name: elasticsearch-cm
+          restartPolicy: Never

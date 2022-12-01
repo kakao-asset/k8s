@@ -1,0 +1,33 @@
+LAST SEEN   TYPE     REASON             OBJECT            MESSAGE
+2m24s       Normal   CIDRNotAvailable   node/k8s-node2    Node k8s-node2 status is now: CIDRNotAvailable
+28s         Normal   CIDRNotAvailable   node/k8s-master   Node k8s-master status is now: CIDRNotAvailable
+27s         Normal   CIDRNotAvailable   node/k8s-node1    Node k8s-node1 status is now: CIDRNotAvailable
+59m         Normal   Scheduled          pod/reads         Successfully assigned default/reads to k8s-node1
+59m         Normal   Pulling            pod/reads         Pulling image "nginx"
+59m         Normal   Pulled             pod/reads         Successfully pulled image "nginx" in 6.698223109s
+59m         Normal   Created            pod/reads         Created container reads
+59m         Normal   Started            pod/reads         Started container reads
+59m         Normal   Killing            pod/reads         Stopping container reads
+56m         Normal   Scheduled          pod/loads         Successfully assigned default/loads to k8s-node2
+56m         Normal   Pulling            pod/loads         Pulling image "nginx"
+56m         Normal   Created            pod/loads         Created container loads
+56m         Normal   Started            pod/loads         Started container loads
+56m         Normal   Pulled             pod/loads         Successfully pulled image "nginx" in 1.569058853s
+55m         Normal   Killing            pod/loads         Stopping container loads
+51m         Normal   Scheduled          pod/busybox       Successfully assigned default/busybox to k8s-node1
+51m         Normal   Pulling            pod/busybox       Pulling image "busybox"
+51m         Normal   Pulled             pod/busybox       Successfully pulled image "busybox" in 4.458187863s
+51m         Normal   Created            pod/busybox       Created container busybox
+51m         Normal   Started            pod/busybox       Started container busybox
+43m         Normal   Killing            pod/busybox       Stopping container busybox
+39m         Normal   Scheduled          pod/busybox       Successfully assigned default/busybox to k8s-node1
+39m         Normal   Pulling            pod/busybox       Pulling image "busybox"
+39m         Normal   Created            pod/busybox       Created container busybox
+39m         Normal   Pulled             pod/busybox       Successfully pulled image "busybox" in 1.548817959s
+39m         Normal   Started            pod/busybox       Started container busybox
+20m         Normal   Scheduled          pod/nginx         Successfully assigned default/nginx to k8s-node2
+20m         Normal   Pulling            pod/nginx         Pulling image "nginx"
+19m         Normal   Started            pod/nginx         Started container nginx
+19m         Normal   Pulled             pod/nginx         Successfully pulled image "nginx" in 1.546492755s
+19m         Normal   Created            pod/nginx         Created container nginx
+4m25s       Normal   Killing            pod/nginx         Stopping container nginx

@@ -1,0 +1,8 @@
+apiVersion: v1
+stringData:
+  SPRING_DATASOURCE_USERNAME: root
+  SPRING_DATASOURCE_PASSWORD: kakaoasset123#
+kind: Secret
+metadata:
+  creationTimestamp: null
+  name: back-sec
