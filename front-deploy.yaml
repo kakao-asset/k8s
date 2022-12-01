@@ -22,6 +22,8 @@ spec:
         envFrom:
         - configMapRef:
             name: front-cm
+        - configMapRef:
+            name: elasticsearch-cm
         resources:
           requests:
             memory: "1000Mi"

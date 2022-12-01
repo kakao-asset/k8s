@@ -22,6 +22,8 @@ spec:
         envFrom:
         - configMapRef:
             name: back-cm
+        - configMapRef:
+            name: elasticsearch-cm
         - secretRef:
             name: back-sec
         resources:

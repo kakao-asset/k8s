@@ -3,7 +3,6 @@ data:
   KAKAO-OAUTH_REDIRECT-URI: http://192.168.56.100:30001/oauth/kakao
   SPRING_DATASOURCE_URL: jdbc:mariadb://mariadb:3306/kakaoasset?serverTimezone=Asia/Seoul
   SPRING_REDIS: redis
-  ELASTICSEARCH_HOST: 192.168.108.48
 kind: ConfigMap
 metadata:
   name: back-cm

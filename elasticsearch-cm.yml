@@ -1,6 +1,8 @@
 apiVersion: v1
 data:
   SERVER_IP: http://192.168.108.48:9200
+  ELASTICSEARCH_HOST: 192.168.108.48
+  REACT_APP_ES_URI: http://192.168.108.48:9200
   STOCK_RANK_INDEX: test-stock-rank
   STOCK_LIST_INDEX: test-stock-list
   MULTI_STOCK_INDEX: test-multi-stock

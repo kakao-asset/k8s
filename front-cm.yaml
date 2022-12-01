@@ -3,7 +3,6 @@ data:
   REACT_APP_BACKEND_URI: http://back:8080/
   REACT_APP_KAKAO_CLIENT_ID: 12826fef7f7511bec960427871f356f1
   REACT_APP_KAKAO_REDIRECT_URI: http://192.168.56.100:30001/oauth/kakao
-  REACT_APP_ES_URI: http://192.168.108.48:9200
 kind: ConfigMap
 metadata:
   name: front-cm
