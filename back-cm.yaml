@@ -3,8 +3,8 @@ data:
   JWT_PASSWRD: ${{ secrets.JWT_PASSWORD }}
   JWT_ISSUER: ${{ secrets.JWT_ISSUER }}
   KAKAO-OAUTH_REDIRECT-URI: http://k8s-release-ingressf-86e49014a3-1480420710.ap-northeast-2.elb.amazonaws.com:30003/oauth/kakao
-  KAKAO-OAUTH_CLIENT_ID: 6d0ac3001372d09775555823493c0e7b
-  KAKAO-OAUTH_ADMIN_KEY: 71eb099c542c296615a2de3cf4542fa5
+  KAKAO-OAUTH_CLIENT_ID: ${{ secrets.CLIENT_ID }}
+  KAKAO-OAUTH_ADMIN_KEY: ${{ secrets.ADMIN_KEY }}
   SPRING_DATASOURCE_URL: jdbc:mariadb://mariadb:3306/kakaoasset?serverTimezone=Asia/
   SPRING_REDIS_HOST: redis
   REDIS_HOST: redis
