@@ -5,7 +5,7 @@ metadata:
 data:
   JWT_PASSWRD: kAKao-AssET-JjanG
   JWT_ISSUER: kakao-asset
-  KAKAO-OAUTH_REDIRECT-URI: http://k8s-release-ingressf-86e49014a3-453848130.ap-northeast-2.elb.amazonaws.com/
+  KAKAO-OAUTH_REDIRECT-URI: http://k8s-release-ingressf-86e49014a3-453848130.ap-northeast-2.elb.amazonaws.com/oauth/kakao
   KAKAO-OAUTH_CLIENT_ID: 6d0ac3001372d09775555823493c0e7b
   KAKAO-OAUTH_ADMIN_KEY: 71eb099c542c296615a2de3cf4542fa5
   SPRING_DATASOURCE_URL: jdbc:mariadb://mariadb:3306/kakaoasset?serverTimezone=Asia/
