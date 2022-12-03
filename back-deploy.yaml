@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: back-container
-        image: ur2e/ka-backend:2.0
+        image: ur2e/ka-backend:3.0
         ports:
         - containerPort: 8080
         envFrom:
