@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: front-container
-        image: ehdwn15100/frontend:1.0
+        image: zxcasd3004/kakaoasset:front
         ports:
         - containerPort: 3000
         envFrom:
