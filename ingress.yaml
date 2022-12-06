@@ -7,7 +7,7 @@ metadata:
     kubernetes.io/ingress.class: alb
     alb.ingress.kubernetes.io/scheme: internet-facing
     alb.ingress.kubernetes.io/target-type: ip # using IP routing policy of ALB
-    alb.ingress.kubernetes.io/subnets: 	subnet-00a257e8e72650087, subnet-0281c9aa9afd381e1 # specifying the public subnets id
+    alb.ingress.kubernetes.io/subnets: subnet-0f749bd5e4444c193, subnet-000541d7093ea2aaf # specifying the public subnets id
 spec:
   rules:
     - http:
