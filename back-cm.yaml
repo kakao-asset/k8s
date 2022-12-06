@@ -6,8 +6,8 @@ data:
   JWT_PASSWRD: kAKao-AssET-JjanG
   JWT_ISSUER: kakao-asset
   KAKAO-OAUTH_REDIRECT-URI: http://kakaoasset.site/oauth/kakao
-  KAKAO-OAUTH_CLIENT_ID: {{  env.CLIENT_ID  }}
-  KAKAO-OAUTH_ADMIN_KEY: {{  env.ADMIN_KEY  }}
+  KAKAO-OAUTH_CLIENT_ID: 6d0ac3001372d09775555823493c0e7b
+  KAKAO-OAUTH_ADMIN_KEY: 71eb099c542c296615a2de3cf4542fa5
   SPRING_DATASOURCE_URL: jdbc:mariadb://mariadb:3306/kakaoasset?serverTimezone=Asia/
   SPRING_REDIS_HOST: redis
   REDIS_HOST: redis
