@@ -4,8 +4,7 @@ metadata:
   name: stockrank-cj
 spec:
   # “At minute 0 past every hour.”
-  # schedule: "CRON_TZ=Asia/Seoul 0 */1 * * *"
-  schedule: "CRON_TZ=Asia/Seoul */5 * * * *"
+  schedule: "CRON_TZ=Asia/Seoul 0 */1 * * *"
   successfulJobsHistoryLimit: 3
   failedJobsHistoryLimit: 3
   jobTemplate:

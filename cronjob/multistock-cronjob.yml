@@ -4,8 +4,7 @@ metadata:
   name: multistock-cj
 spec:
   # “At every minute past every hour from 9 through 16 on every day-of-week from Monday through Friday.”
-  # schedule: "CRON_TZ=Asia/Seoul */1 9-16 * * 1-5"
-  schedule: "CRON_TZ=Asia/Seoul */1 * * * *"
+  schedule: "CRON_TZ=Asia/Seoul */1 9-16 * * 1-5"
   successfulJobsHistoryLimit: 3
   failedJobsHistoryLimit: 3
   jobTemplate:
