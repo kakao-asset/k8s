@@ -3,9 +3,9 @@ data:
   SERVER_IP: http://3.39.187.222:9200
   ELASTICSEARCH_HOST: 3.39.187.222
   REACT_APP_ES_URI: http://52.78.120.51:9200
-  STOCK_RANK_INDEX: test-stock-rank
-  STOCK_LIST_INDEX: test-stock-list
-  MULTI_STOCK_INDEX: test-multi-stock
+  INDEX_STOCK-RANK-INDEX: stock-rank
+  INDEX_STOCK-LIST-INDEX: stock-code-list
+  INDEX_MULTI-STOCK-INDEX: stock-data
 kind: ConfigMap
 metadata:
   name: elasticsearch-cm
