@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: back-container
-        image: 752518105514.dkr.ecr.ap-northeast-2.amazonaws.com/kakaoasset-backend:b7dc317422ba24c4c9ae08c9c7bdf36290ae02a9
+        image: 752518105514.dkr.ecr.ap-northeast-2.amazonaws.com/kakaoasset-backend:cc0da8fbce8c7bc423a68297e6db29df6fb552df
         ports:
         - containerPort: 8080
         envFrom:
