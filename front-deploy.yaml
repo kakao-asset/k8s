@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: front-container
-        image: 752518105514.dkr.ecr.ap-northeast-2.amazonaws.com/kakaoasset-frontend:9a5fca6f56325b73b4253c29b71c397ad56ae50d
+        image: 752518105514.dkr.ecr.ap-northeast-2.amazonaws.com/kakaoasset-frontend:54394128c4987f9a45912df88045dbc55f356d30
         ports:
         - containerPort: 3000
         envFrom:
