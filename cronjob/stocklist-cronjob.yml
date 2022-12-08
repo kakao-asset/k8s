@@ -14,6 +14,7 @@ spec:
           containers:
           - name: stocklist-cj
             image: zxcasd3004/kakaoasset:stocklist
+            imagePullPolicy: Always
             envFrom:
             - configMapRef:
                 name: elasticsearch-cm
