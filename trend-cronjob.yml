@@ -3,8 +3,8 @@ kind: CronJob
 metadata:
   name: trend-cj
 spec:
-  # “At 00:00 on every day-of-month.”
-  schedule: "CRON_TZ=Asia/Seoul 0 0 */1 * *"
+  # “At 23:50 on every day-of-month.”
+  schedule: "CRON_TZ=Asia/Seoul 50 23 */1 * *"
   successfulJobsHistoryLimit: 3
   failedJobsHistoryLimit: 3
   jobTemplate:

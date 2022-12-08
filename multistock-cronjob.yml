@@ -1,10 +1,10 @@
 apiVersion: batch/v1
 kind: CronJob
 metadata:
-  name: indexclear-cj
+  name: multistock-cj
 spec:
-  # “At 00:00 on every day-of-month if it's on every day-of-week from Monday through Friday.”
-  schedule: "CRON_TZ=Asia/Seoul 0 0 */1 * 1-5"
+  # “At 08:00 on every day-of-month if it's on every day-of-week from Monday through Friday.”
+  schedule: "CRON_TZ=Asia/Seoul 0 8 */1 * 1-5"
   successfulJobsHistoryLimit: 3
   failedJobsHistoryLimit: 3
   jobTemplate:
@@ -12,8 +12,8 @@ spec:
       template:
         spec:
           containers:
-          - name: indexclear-cj
-            image: zxcasd3004/kakaoasset:indexclear
+          - name: multistock-cj
+            image: zxcasd3004/kakaoasset:multistock
             imagePullPolicy: Always
             envFrom:
             - configMapRef:
