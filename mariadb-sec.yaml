@@ -3,6 +3,7 @@ stringData:
   MARIADB_ROOT_PASSWORD: kakaoasset123#
   MARIADB_DATABASE: kakaoasset
   MARIADB_IP: mariadb
+  MARIADB_USER: root
 kind: Secret
 metadata:
   creationTimestamp: null
